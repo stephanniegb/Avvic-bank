@@ -1,0 +1,66 @@
+@use "../globals";
+#services {
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+  padding: 4%;
+  @media (min-width: 49.75em) {
+    padding-inline: 10%;
+  }
+  .vertical {
+    display: none;
+    @media (min-width: 49.75em) {
+      width: 1.5px;
+      min-height: 80%;
+      display: inline-block;
+      background-color: var(--AvvicDBlue);
+      justify-self: center;
+      align-self: flex-start;
+    }
+  }
+  #bottom {
+    width: 1.5px;
+    // height: 80%;
+    display: inline-block;
+    background-color: var(--AvvicDBlue);
+    justify-self: center;
+    align-self: flex-end;
+  }
+
+  h2 {
+    text-align: center;
+    color: var(--AvvicDBlue);
+    font-weight: var(--headings-font-weight);
+  }
+  h3 {
+    color: var(--AvvicDBlue);
+    font-weight: var(--headings-font-weight);
+    margin-bottom: 1rem;
+  }
+  #services-wrapper {
+    display: grid;
+
+    gap: 1rem;
+    @media (min-width: 49.75em) {
+      grid-template-columns: 47% 6% 47%;
+    }
+    .service {
+      display: grid;
+      grid-template-columns: 20% 80%;
+      padding: 1.5rem;
+      .service-text {
+        padding: 4%;
+      }
+    }
+
+    .horizontal {
+      border-bottom: 1.5px solid var(--AvvicDBlue);
+    }
+    .mobile-border {
+      border-bottom: 1.5px solid var(--AvvicDBlue);
+      @media (min-width: 49.75em) {
+        border-bottom: none;
+      }
+    }
+  }
+}
