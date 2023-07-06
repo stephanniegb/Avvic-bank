@@ -1,0 +1,69 @@
+[
+  {
+    "Department": "Information technology (IT)",
+    "Available Jobs": [
+      {
+        "id": "DDJ1",
+        "Role": "UX/UI Designer",
+        "Location": "Enugu",
+        "Job Description": "Design and develop user interfaces for web and mobile applications.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere."
+      },
+      {
+        "id": "DDJ2",
+        "Role": "UX/UI Designer (Intern)",
+        "Location": "Enugu",
+        "Job Description": "Design and develop user interfaces for web and mobile applications.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere."
+      }
+    ]
+  },
+  {
+    "Department": "Human Resources (HR)",
+    "Available Jobs": [
+      {
+        "id": "HRJ1",
+        "Role": "HR Manager",
+        "Location": "Enugu",
+        "Job Description": "Design and develop user interfaces for web and mobile applications.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere."
+      }
+    ]
+  },
+  {
+    "Department": "Finance",
+    "Available Jobs": [
+      {
+        "id": "QAJ1",
+        "Role": "QA Manager",
+        "Location": "Enugu",
+        "Job Description": "Design and develop user interfaces for web and mobile applications.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere."
+      }
+    ]
+  },
+  {
+    "Department": "Operations",
+    "Available Jobs": []
+  },
+  {
+    "Department": "Customer Experience",
+    "Available Jobs": []
+  },
+  {
+    "Department": "Legal",
+    "Available Jobs": []
+  },
+  {
+    "Department": "PM",
+    "Available Jobs": []
+  },
+  {
+    "Department": "MCC",
+    "Available Jobs": []
+  },
+  {
+    "Department": "Sales/ Business Development",
+    "Available Jobs": []
+  },
+  {
+    "Department": "Internship",
+    "Available Jobs": []
+  }
+]

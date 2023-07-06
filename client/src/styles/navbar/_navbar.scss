@@ -1,0 +1,155 @@
+@use "../globals";
+
+#navbar {
+  display: flex;
+  justify-content: space-between;
+  font-size: var(--small-text);
+  padding-inline: 7%;
+  @media (min-width: 64.1em) {
+    position: sticky;
+    top: 0;
+    z-index: 4;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 4.5%;
+  }
+
+  background-color: var(--AvvicWhite);
+
+  .logo-div {
+    display: flex;
+    flex-basis: 60%;
+    align-items: center;
+    img {
+      max-width: 110px;
+      @media (min-width: 64.1em) {
+        margin-top: 2%;
+        max-width: 150px;
+      }
+    }
+  }
+
+  .nav-links {
+    display: none;
+    @media (min-width: 64.1em) {
+      // border: 1px solid red;
+      display: flex;
+      gap: 10%;
+      // align-items: flex-end;
+      flex-basis: 80%;
+      a:hover {
+        color: var(--AvvicCyan);
+        transition: 0.3s ease-in-out;
+      }
+      a {
+        text-decoration: none;
+        font-size: var(--small-text);
+      }
+
+      a.activePath {
+        color: var(--Btn-AvvicDCyan);
+        font-weight: var(--font-weight-regular);
+      }
+    }
+  }
+  .bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: var(--Btn-AvvicDCyan);
+    border-radius: 2px;
+  }
+  .nav-links-wrapper {
+    flex-basis: 50%;
+  }
+  .nav-btn {
+    display: none;
+    @media (min-width: 64.1em) {
+      display: block;
+      padding: 0.7em;
+      background-color: var(--Btn-AvvicDCyan);
+      color: var(--AvvicWhite);
+      border: none;
+      font-weight: 600;
+      width: 7rem;
+      font-size: var(--text-size);
+      a {
+        text-decoration: none;
+      }
+    }
+  }
+  .nav-btn-wrapper {
+    a {
+      text-decoration: none;
+    }
+  }
+  .hamburger {
+    display: block;
+    background-color: transparent;
+    border: none;
+    @media (min-width: 64.1em) {
+      display: none;
+    }
+  }
+  .hamburger.active > .bar:nth-child(2) {
+    opacity: 0;
+  }
+  .hamburger.active > .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+  }
+  .hamburger.active > .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+  }
+}
+// MOBILE NAV
+.mobile-nav {
+  ul {
+    li {
+      border-bottom: 1px solid var(--AvvicBlack);
+      width: 100%;
+      a {
+        display: block;
+        text-decoration: none;
+        font-size: var(--medium-text-size);
+      }
+
+      a.activePath {
+        color: var(--AvvicDBlue);
+      }
+    }
+  }
+
+  background-color: var(--AvvicCyan);
+  position: fixed;
+  padding: 0.5rem;
+  height: 60px;
+  gap: 0;
+  right: -100%;
+  top: 2.9rem;
+  width: 100%;
+  height: 100vh;
+  text-align: center;
+  transition: 0.3s;
+  z-index: 99;
+  opacity: 0.9;
+  @media (min-width: 64.1em) {
+    display: none;
+  }
+  ul {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    gap: 3em;
+  }
+}
+.mobile-nav.active {
+  right: 0;
+}
+.disable-scroll {
+  overflow: hidden;
+}

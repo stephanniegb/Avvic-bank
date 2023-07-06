@@ -1,0 +1,97 @@
+@use "../globals";
+#landing-p-wrapper {
+  display: flex;
+  flex-direction: column;
+
+  #ctaBanner {
+    background: linear-gradient(
+      90deg,
+      rgba(2, 11, 50, 1) 0%,
+      rgba(13, 153, 153, 1) 55%,
+      rgba(18, 204, 204, 1) 84%
+    );
+    padding: 10%;
+    display: grid;
+    gap: 1rem;
+    justify-content: center;
+    @media (min-width: 49.75em) {
+      grid-template-columns: 80% 20%;
+    }
+    h3 {
+      color: var(--AvvicWhite);
+      font-weight: var(--headings-font-weight);
+      text-align: center;
+      @media (min-width: 49.75em) {
+        text-align: start;
+      }
+    }
+    button {
+      background-color: var(--AvvicWhite);
+      color: var(--Btn-AvvicDCyan);
+      border: none;
+      font-size: var(--text-size);
+      width: 50%;
+      margin-inline: auto;
+      padding: 0.7em;
+
+      @media (min-width: 49.75em) {
+        width: 100%;
+      }
+      @media (min-width: 64.06em) {
+        width: 100%;
+      }
+    }
+  }
+}
+
+#why-choose-us-section {
+  h2 {
+    text-align: center;
+    color: var(--AvvicDBlue);
+  }
+  p {
+    text-align: center;
+    padding: 5% 10%;
+  }
+  background: linear-gradient(90deg, #fffeff 0%, #d7fffe 100%);
+  padding: 10% 0%;
+  .why-choose-us {
+    // height: 300px;
+    margin: auto;
+    position: relative;
+    // padding: 5%;
+    // width: 90%;
+    display: grid;
+    place-items: center;
+    /* Adjust height as needed */
+    overflow: hidden;
+    .slider-inner {
+      display: flex;
+      width: calc(200px * 10);
+      gap: 2rem;
+      h5 {
+        color: var(--AvvicWhite);
+      }
+      transition: transform 0.5s ease-in-out;
+      animation: slide-animation 40s linear infinite;
+    }
+
+    .why {
+      // background-color: #e2e7fe;
+      border-radius: 5px;
+      height: 250px;
+      display: flex;
+      align-items: center;
+      background-image: url("../../../public/assets/abstract-grunge-decorative-relief-navy-blue-stucco-wall-texture-wide-angle-rough-colored-background-min.jpg");
+      padding-inline: 8%;
+    }
+  }
+  @keyframes slide-animation {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(calc(-250px * 10));
+    }
+  }
+}

@@ -1,0 +1,80 @@
+@use "../globals";
+
+#dropDown {
+  padding-inline: 5%;
+
+  ul {
+    padding: 0;
+    margin: 0;
+  }
+
+  li {
+    margin: 0;
+  }
+  .jobCategory-li {
+    cursor: pointer;
+  }
+  .jobCategory-btn {
+    border: none;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid var(--AvvicDBlue);
+    border-radius: 0;
+    width: 100%;
+    padding: 5% 0%;
+    background-color: transparent;
+    @media (min-width: 49.75em) {
+      padding: 2% 0%;
+    }
+  }
+  h3 {
+    color: var(--AvvicDBlue);
+    margin: 0;
+  }
+
+  .showDropDown > .jobs-dropD {
+    max-height: 62.5rem;
+    transition: max-height 0.4s ease-in;
+    overflow-y: auto;
+  }
+  .hideDropDown > .jobs-dropD {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.4s ease-out;
+  }
+  .jobs-dropD {
+    h4 {
+      color: var(--Btn-AvvicDCyan);
+    }
+    h5 {
+      color: var(--AvvicDBlue);
+    }
+    p {
+      @media (min-width: 49.75em) {
+        width: 60%;
+      }
+    }
+    .job {
+      padding: 4%;
+    }
+
+    .dropD-text {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      margin-bottom: 1%;
+      @media (min-width: 49.75em) {
+        flex-direction: row;
+        justify-content: space-between;
+      }
+
+      .apply-btn {
+        border: none;
+        background-color: var(--Btn-AvvicDCyan);
+        color: var(--AvvicWhite);
+        @media (min-width: 49.75em) {
+        }
+      }
+    }
+  }
+}

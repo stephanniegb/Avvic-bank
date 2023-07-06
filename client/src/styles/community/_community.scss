@@ -1,0 +1,25 @@
+@use "../globals";
+#community-wrapper {
+  background: url("../../../public/assets/Rectangle\ 34.png");
+  justify-content: center;
+  color: var(--AvvicWhite);
+  text-align: center;
+  gap: 2rem;
+  padding: 2rem;
+  img {
+    border-radius: 5px;
+  }
+  aside {
+    align-self: center;
+
+    button {
+      background-color: var(--Btn-AvvicDCyan);
+      color: var(--AvvicWhite);
+      font-size: var(--btn-text-size);
+      border: 2px solid var(--Btn-AvvicDCyan);
+      @media (min-width: 768px) {
+        max-width: 42%;
+      }
+    }
+  }
+}

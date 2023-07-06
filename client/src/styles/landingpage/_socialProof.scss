@@ -1,0 +1,48 @@
+@use "../globals";
+#socialProof {
+  background-image: url("../../../public/assets/[Downloader.la]-645278f9b6260-min.jpg");
+  color: var(--AvvicWhite);
+  display: flex;
+  flex-direction: column;
+  // gap: 1em;
+  padding: 2rem;
+  padding-inline: 5%;
+  @media (min-width: 49.75em) {
+    margin-top: 10rem;
+  }
+
+  #why-avvic {
+    color: var(--Btn-AvvicDCyan);
+    font-weight: var(--headings-font-weight);
+  }
+  .SP-text {
+    display: grid;
+    gap: 3rem;
+    @media (min-width: 49.75em) {
+      grid-template-columns: 60% 40%;
+    }
+
+    h2 {
+      font-weight: var(--headings-font-weight);
+    }
+    h3 {
+      font-weight: var(--headings-font-weight);
+    }
+    .social-proof-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1rem;
+    }
+  }
+
+  .btn-div {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    #find-out-btn {
+      border: 2px solid var(--AvvicWhite);
+      background-color: transparent;
+      color: var(--AvvicWhite);
+    }
+  }
+}

@@ -1,0 +1,241 @@
+#career-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+  background-color: var(--AvvicWhite);
+  // background: linear-gradient(90deg, #fffeff 0%, #d7fffe 100%);
+  @media (min-width: 49.75em) {
+  }
+  h3 {
+    color: var(--AvvicDBlue);
+  }
+
+  #career {
+    padding: 10em;
+    background-size: cover;
+
+    @media (min-width: 49.75em) {
+      background-size: cover;
+    }
+    h2 {
+      text-align: center;
+      color: var(--AvvicWhite);
+    }
+  }
+
+  #jobOpening {
+    display: flex;
+    flex-direction: column;
+    background: #f5f5f5;
+    h2,
+    h3 {
+      color: var(--AvvicDBlue);
+    }
+    h3 {
+      margin-top: 2%;
+    }
+    #job-opening-heading {
+      padding-inline: 5%;
+    }
+  }
+  #career-dev {
+    // padding-inline: 10%;
+
+    gap: 2rem;
+    @media (min-width: 49.75em) {
+      display: grid;
+      padding-inline: 15%;
+    }
+    h2,
+    h3 {
+      color: var(--AvvicDBlue);
+      text-align: center;
+      margin-bottom: 1rem;
+    }
+    #career-dev-text {
+      padding: 5%;
+
+      text-align: center;
+      li {
+        list-style: circle;
+      }
+    }
+  }
+  #team-dev {
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+    padding: 5%;
+    h3 {
+      margin-bottom: 1rem;
+    }
+    #article-1 {
+      display: flex;
+      flex-direction: column-reverse;
+      gap: 2rem;
+      @media (min-width: 49.75em) {
+        display: grid;
+        grid-template-columns: 40% 60%;
+        gap: 2rem;
+      }
+    }
+    #article-2 {
+      display: flex;
+      flex-direction: column-reverse;
+      gap: 2rem;
+      @media (min-width: 49.75em) {
+        display: flex;
+        flex-direction: column;
+        gap: 5rem;
+      }
+      aside {
+        #h3-div {
+          text-align: center;
+
+          @media (min-width: 49.75em) {
+            padding: 10% 20%;
+            border-right: 1px solid var(--AvvicDBlue);
+          }
+        }
+        @media (min-width: 49.75em) {
+          display: grid;
+          grid-template-columns: 25% 75%;
+          gap: 4rem;
+          padding-inline: 15%;
+        }
+      }
+      #img-div {
+        @media (min-width: 49.75em) {
+          display: block;
+          padding-inline: 15%;
+        }
+      }
+    }
+  }
+  #team-dev-grid {
+    display: grid;
+    gap: 1.5rem;
+    grid-template-columns: 1fr;
+    @media (min-width: 49.75em) {
+      grid-template-columns: repeat(4, 1fr);
+    }
+
+    h2,
+    h3 {
+      color: var(--AvvicDBlue);
+    }
+    img {
+      border-radius: 8px;
+      width: 100%;
+    }
+    .grid-div {
+      display: grid;
+      gap: 1.2rem;
+      grid-column: span 2;
+      @media (min-width: 49.75em) {
+        grid-column: span 1;
+      }
+    }
+    .grid-div-2 {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-column: span 2;
+      gap: 1.2rem;
+      @media (min-width: 49.75em) {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-column: span 1;
+      }
+    }
+
+    .grid-col-span-2 {
+      grid-column: span 2;
+    }
+    article {
+      background-color: var(--AvvicPurple);
+      padding: 1rem;
+      border-radius: 8px;
+    }
+    article:nth-child(2) {
+      background-color: var(--AvvicGreen);
+      grid-column: span 2;
+      grid-row: 2;
+    }
+
+    @media (min-width: 49.75em) {
+      article:nth-child(2) {
+        background-color: var(--AvvicGreen);
+        grid-column: 4;
+        // grid-row: 1;
+        // grid-row-end: 3;
+        // or grid-row-end: span 2;
+        grid-row: 1/3;
+      }
+    }
+
+    #team-dev-top-wrapper {
+      display: flex;
+      flex-direction: column-reverse;
+      gap: 2rem;
+      @media (min-width: 49.75em) {
+        display: grid;
+        grid-template-columns: 50% 50%;
+      }
+    }
+    #team-dev-btm-wrapper {
+      display: flex;
+      // flex-wrap: wrap;
+      gap: 2rem;
+      @media (min-width: 49.75em) {
+        display: grid;
+      }
+      .process-wrkEthics {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        gap: 3rem;
+        padding: 7%;
+        border-radius: 5px;
+        position: relative;
+
+        h3 {
+          text-align: center;
+        }
+
+        img {
+          border-radius: 8px;
+          width: 100%;
+          height: 110%;
+        }
+      }
+    }
+  }
+  .image-container {
+    padding: 2%;
+    position: relative;
+    display: inline-block;
+    z-index: 1;
+    img {
+      display: block;
+      min-height: 100%;
+      width: auto;
+    }
+    #top-right {
+      background-color: rgba(13, 153, 153, 0.2);
+      width: 50%;
+      position: absolute;
+      right: 0;
+      top: 0;
+      height: 80%;
+      z-index: -1;
+    }
+    #bottom-left {
+      background-color: rgba(13, 153, 153, 0.2);
+      width: 50%;
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      height: 20%;
+      z-index: -1;
+    }
+  }
+}

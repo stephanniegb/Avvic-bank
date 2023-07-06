@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400&display=swap");
+:root {
+  --text-font: "Public Sans", sans-serif;
+  --small-text: 0.875rem;
+  --small-p-text-size: 0.9em;
+  --text-size: 1em;
+  --large-h1-text-size: 2.9em;
+  --small-h1-text-size: 2em;
+  --large-h2-text-size: 2.5em;
+  --small-h2-text-size: 1.7em;
+  --large-h3-text-size: 1.7em;
+  --small-h3-text-size: 1.15em;
+  --large-h4-text-size: 2.5em;
+  --small-h4-text-size: 1.1em;
+  --small-header-text-size: 1.5em;
+  --large-text-size: ;
+  --Vlarge-text-size: 2.5em;
+  --larger-text-size: 2.9em;
+  --small-btn-text-size: 0.875em;
+  --btn-text-size: 1em;
+  --font-weight-light: 300;
+  --font-weight-regular: 400;
+  --headings-font-weight: 500;
+}
+body {
+  font-family: var(--text-font);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  margin: 0;
+}
+h1 {
+  // font-size: var(--small-h1-text-size);
+  line-height: 1.2;
+  @media (min-width: 49.75em) {
+    font-size: var(--large-h1-text-size);
+  }
+}
+h2 {
+  font-size: var(--small-h2-text-size);
+  @media (min-width: 49.75em) {
+    font-size: var(--larger-text-size);
+  }
+}
+h3 {
+  font-size: var(--small-h3-text-size);
+  @media (min-width: 49.75em) {
+    font-size: var(--large-h3-text-size);
+  }
+}
+p {
+  margin-top: 0;
+  line-height: 1.5;
+  font-weight: 300;
+  font-size: var(--small-p-text-size);
+
+  @media (min-width: 49.75em) {
+    line-height: 1.7;
+    font-size: var(--small-p-text-size);
+  }
+}
