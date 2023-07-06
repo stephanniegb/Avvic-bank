@@ -32,15 +32,15 @@ The project follows a typical React.js application structure:
 
 - `public/`: Contains the public assets and the index.html file.
 - `src/`: Contains the main source code.
-  - `components`: Contains reusable React components used throughout the application.
-  - `Data`: Contains data files and resources utilized by the application.
-  - `hooks`: Contains custom React hooks
-  - `pages`: Contains the main page components.
-  - `router`: Contains files related to routing
-  - `Styles`: Contains SCSS files for styling the application.
-  - `util`: Contains utility functions
-  - `App.js`: The application's root component.
-  - `index.js`: The entry point of the application.
+  - `components/`: Contains reusable React components used throughout the application.
+  - `Data/`: Contains data files and resources utilized by the application.
+  - `hooks/`: Contains custom React hooks
+  - `pages/`: Contains the main page components.
+  - `router/`: Contains files related to routing
+  - `Styles/`: Contains SCSS files for styling the application.
+  - `util/`: Contains utility functions
+  - `App.js/`: The application's root component.
+  - `index.js/`: The entry point of the application.
 
 ## Contact
 
