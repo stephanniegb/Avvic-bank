@@ -28,7 +28,7 @@ function FqaDropDown({ Data }) {
                   <p>{question}</p>
                   <span>
                     <img
-                      src={`assets/icons/Vector${
+                      src={`/assets/icons/Vector${
                         active === index ? "" : "(1)"
                       }.svg`}
                       alt={active === index ? "hhhh" : "jjjj"}
