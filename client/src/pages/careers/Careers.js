@@ -3,36 +3,14 @@ import { DropDown } from "../../components";
 function Careers() {
   return (
     <div id="career-wrapper">
-      {/* <section id="career">
-        <h2>Careers</h2>
-      </section> */}
       <section id="career-dev">
-        <aside id="career-dev-text">
-          <h2>Career Development</h2>
-          <p>
-            Avvic Group leads an integrated subsidiary system that provides
-            collaborative synergies to drive value creation. Avvic provides
-            unique opportunities for creativity, career growth, and development
-            in specific skill sets.
-          </p>
-          {/* <p>
-            The organization continuously demonstrates a commitment to nurturing
-            and retaining a creative, innovative, and value-driven environment
-            that motivates individuals and teams for high performance. The Avvic
-            team extends you a warm welcome if you are:
-          </p>
-          <ul>
-            <li>An out-of-the-box thinking, creative individual.</li>
-            <li>A problem solver with great analytical skills.</li>
-            <li>Motivated, focused, and self-driven.</li>
-            <li>A team player with a good attitude.</li>
-          </ul> */}
-        </aside>
-        {/* <div className="image-container">
-          <div id="top-right"></div>
-          <img src="assets/IMG_2972-min-scaled.jpg" alt="" />
-          <div id="bottom-left"></div>
-        </div> */}
+        <h2>Career Development</h2>
+        <p>
+          Avvic Group leads an integrated subsidiary system that provides
+          collaborative synergies to drive value creation. Avvic provides unique
+          opportunities for creativity, career growth, and development in
+          specific skill sets.
+        </p>
       </section>
 
       <section id="team-dev">

@@ -77,13 +77,15 @@
     }
 
     .why {
-      // background-color: #e2e7fe;
       border-radius: 5px;
-      height: 250px;
       display: flex;
+      height: 12.5rem;
       align-items: center;
       background-image: url("../../../public/assets/abstract-grunge-decorative-relief-navy-blue-stucco-wall-texture-wide-angle-rough-colored-background-min.jpg");
       padding-inline: 8%;
+      @media (min-width: 49.75em) {
+        height: 15.7rem;
+      }
     }
   }
   @keyframes slide-animation {
