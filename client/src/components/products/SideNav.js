@@ -72,13 +72,14 @@ function SideNav() {
       </div>
       <nav className="sidenav-open active" ref={sideMenu}>
         <ul className="nav-links">
-          <Link
-            to={`/products/ourproducts`}
-            className={
-              location.pathname === `/products/ourproducts` ? "activePath" : ""
-            }
-          >
-            <li>
+          <Link to={`/products/ourproducts`}>
+            <li
+              className={
+                location.pathname === `/products/ourproducts`
+                  ? "activePath"
+                  : ""
+              }
+            >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 height="2em"
@@ -108,19 +109,6 @@ function SideNav() {
                   }
                 >
                   <img src={icon} alt="icon" />
-                  {/* <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    height="2em"
-                    viewBox="0 0 640 512"
-                    style={{
-                      fill:
-                        location.pathname === `/products/${path}`
-                          ? "#0d9999"
-                          : "#020b32",
-                    }}
-                  >
-                    <path d={icon} />
-                  </svg> */}
                   {sideNavOpen && <p>{Name}</p>}
                 </li>
               </Link>
