@@ -37,7 +37,7 @@ function Features() {
       <div className="feature">
         {/* <div className="square"></div> */}
         <div>
-          <img src="/assets/icons/Group 12.svg" alt="icon" />
+          <img src="/assets/Vault.png" alt="icon" />
         </div>
         <h3>Save</h3>
         <p>
@@ -47,10 +47,10 @@ function Features() {
       </div>
       {/* classname: animate__animated aanimate__zoomIn */}
       {/* data-animation="animate__zoomIn" */}
-      <div className="feature ">
+      <div className="feature">
         {/* <div className="square"></div> */}
         <div>
-          <img src="/assets/icons/amico 4.svg" alt="icon" />
+          <img src="/assets/Coin.png" alt="icon" />
         </div>
         <h3>Grow</h3>
         <p>
@@ -61,7 +61,7 @@ function Features() {
       <div className="feature">
         {/* <div className="square"></div> */}
         <div>
-          <img src="/assets/icons/amico.png" alt="icon" />
+          <img src="/assets/Coin Bag.png" alt="icon" />
         </div>
         <h3>Invest</h3>
         <p>

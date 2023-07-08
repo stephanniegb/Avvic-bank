@@ -51,7 +51,7 @@ function Support() {
                 <img src="/assets/icons/Vector 7.svg" alt="" />
               </a>
               <a href="https://wa.me/+2348149316300?text=Hello">
-                <img src="assets/icons/Vector 7.svg" alt="" />
+                <img src="/assets/icons/Vector.png" alt="" />
               </a>
             </div>
           </div>

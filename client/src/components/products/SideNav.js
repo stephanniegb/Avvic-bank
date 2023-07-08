@@ -100,8 +100,15 @@ function SideNav() {
             const path = Name.toLowerCase().replace(/[\s,]+/g, "");
             return (
               <Link to={`/products/${path}`} key={Name}>
-                <li>
-                  <svg
+                <li
+                  className={
+                    location.pathname === `/products/${path}`
+                      ? "activePath"
+                      : ""
+                  }
+                >
+                  <img src={icon} alt="icon" />
+                  {/* <svg
                     xmlns="http://www.w3.org/2000/svg"
                     height="2em"
                     viewBox="0 0 640 512"
@@ -113,7 +120,7 @@ function SideNav() {
                     }}
                   >
                     <path d={icon} />
-                  </svg>
+                  </svg> */}
                   {sideNavOpen && <p>{Name}</p>}
                 </li>
               </Link>

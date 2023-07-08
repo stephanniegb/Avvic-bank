@@ -10,7 +10,7 @@
   place-content: center;
   padding: 2%;
   z-index: 30;
-  // @media (min-width: 796px) {
+  // @media (min-width: 49.75em) {
   //   padding: 1%;
   // }
   // overflow: hidden;
@@ -24,14 +24,14 @@
     max-height: 95vh;
     overflow-y: auto;
     animation: slideIn 0.4s ease-in-out forwards;
-    @media (min-width: 1025px) {
+    @media (min-width: 64.1em) {
       width: 80%;
     }
     .btn-wrapper {
       //   border: 1px solid red;
       display: flex;
       justify-content: flex-end;
-      @media (min-width: 796px) {
+      @media (min-width: 49.75em) {
       }
       button {
         border: none;
@@ -41,21 +41,20 @@
       }
     }
     main {
-      // @media (min-width: 796px) {
       display: grid;
       padding: 10%;
 
       // }
       gap: 2em;
-      @media (min-width: 796px) {
+      @media (min-width: 49.75em) {
         grid-template-columns: 40% 60%;
         padding: 3%;
       }
       .fig-img-wrapper {
         padding: 10%;
         display: inline-block;
-        @media (min-width: 796px) {
-          height: 350px;
+        @media (min-width: 49.75em) {
+          max-height: 24.4em;
         }
       }
       img {
