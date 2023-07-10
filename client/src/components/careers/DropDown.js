@@ -40,13 +40,13 @@ function DropDown() {
                   <span>
                     {active === index ? (
                       <img
-                        src="assets/icons/Vector.svg"
+                        src="/assets/icons/Vector.svg"
                         alt=""
                         style={{ transition: "all 0.4s" }}
                       />
                     ) : (
                       <img
-                        src="assets/icons/Vector(1).svg"
+                        src="/assets/icons/Vector(1).svg"
                         alt=""
                         style={{ transition: "all 0.4s" }}
                       />

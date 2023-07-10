@@ -17,10 +17,10 @@ function Support() {
             <a href="#">info@avvicgroup.com</a>
           </div>
           <div>
-            <img src="/assets/icons/vector 6.svg" alt="" />
+            <img src="/assets/icons/Vector 6.svg" alt="" />
             <h5>Phone</h5>
             <p>Reach Us via moblie</p>
-            <a href="#">+2348149316300</a>
+            <a href="tel:+2348149316300">+2348149316300</a>
           </div>
           <div>
             <img src="/assets/icons/Vector 3 2.svg" alt="" />
