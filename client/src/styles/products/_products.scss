@@ -2,7 +2,7 @@
 #products-container {
   display: flex;
   flex-direction: column;
-  gap: 5rem;
+  gap: 1rem;
   background-color: var(--AvvicWhite);
 
   #entry {
@@ -42,11 +42,14 @@
     }
 
     .product {
-      background: transparent;
+      background: var(--AvvicWhite);
+      box-shadow: 1px 1px 1px #d2d5d9;
       display: flex;
-      gap: 1.5em;
+      gap: 0.5rem;
       flex-direction: column;
-      padding: 2%;
+      padding: 7%;
+      border-radius: 25px;
+      // border: 1px solid #d2d5d9;
 
       h3 {
         color: var(--AvvicDBlue);
@@ -58,7 +61,7 @@
       }
       img {
         min-width: 100%;
-        box-shadow: 5px 5px 5px gray;
+        // box-shadow: 5px 5px 5px gray;
         border-radius: 25px;
       }
       button {
