@@ -44,8 +44,8 @@
     padding: 2%;
     display: grid;
     gap: 2rem;
-    padding-inline: 10rem;
     @media (min-width: 49.75em) {
+      padding-inline: 10rem;
       grid-template-columns: repeat(4, 1fr);
     }
 

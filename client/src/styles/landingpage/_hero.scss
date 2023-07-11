@@ -52,7 +52,6 @@
   .callToActionBtns {
     display: flex;
     gap: 1em;
-    // border: 1px solid red;
     #get-started-btn {
       background-color: var(--Btn-AvvicDCyan);
       color: var(--AvvicWhite);
@@ -63,6 +62,11 @@
         width: 40%;
       }
     }
+    #get-started-btn:hover {
+      background-color: var(--AvvicWhite);
+      color: var(--Btn-AvvicDCyan);
+      border: 6px solid var(--AvvicWhite);
+    }
     #our-solution-btn {
       background-color: transparent;
       border: 2px solid var(--Btn-AvvicDCyan);
@@ -72,6 +76,10 @@
         padding: 0.7em;
         width: 40%;
       }
+    }
+    #our-solution-btn:hover {
+      background-color: var(--Btn-AvvicDCyan);
+      color: var(--AvvicWhite);
     }
   }
 }
