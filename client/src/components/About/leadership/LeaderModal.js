@@ -4,8 +4,8 @@ import "animate.css";
 function LeaderModal({ image, name, title, toggleModal, description }) {
   return (
     <div className="overlay">
-      <div className="leaderModal-wrapper">
-        <div className="btn-wrapper">
+      <div className="modal-wrapper">
+        <div className="close-btn-wrapper">
           <button onClick={toggleModal}>
             <svg
               xmlns="http://www.w3.org/2000/svg"

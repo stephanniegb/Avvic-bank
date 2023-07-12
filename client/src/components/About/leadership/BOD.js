@@ -1,6 +1,6 @@
 import React from "react";
 import Leader from "./Leader";
-import bod from "../../Data/leadership/BOD.json";
+import bod from "../../../Data/leadership/BOD.json";
 function BOD() {
   return (
     <section className="leader-wrapper grid-3">

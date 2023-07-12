@@ -1,0 +1,54 @@
+@use "../globals";
+#why-choose-us-section {
+  background: linear-gradient(90deg, #fffeff 0%, #d7fffe 100%);
+  padding: 15% 0%;
+  @media (min-width: 49.75em) {
+    padding: 10% 0%;
+  }
+  h2 {
+    text-align: center;
+    color: var(--AvvicDBlue);
+  }
+  p {
+    text-align: center;
+    padding: 5% 10%;
+  }
+  .why-choose-us {
+    margin: auto;
+    position: relative;
+
+    display: grid;
+    place-items: center;
+    overflow: hidden;
+    .slider-inner {
+      display: flex;
+      width: calc(200px * 10);
+      gap: 2rem;
+      h5 {
+        color: var(--AvvicWhite);
+      }
+      transition: transform 0.5s ease-in-out;
+      animation: slide-animation 40s linear infinite;
+    }
+
+    .why {
+      border-radius: 5px;
+      display: flex;
+      height: 12.5rem;
+      align-items: center;
+      background-image: url("../../../public/assets/abstract-grunge-decorative-relief-navy-blue-stucco-wall-texture-wide-angle-rough-colored-background-min.jpg");
+      padding-inline: 8%;
+      @media (min-width: 49.75em) {
+        height: 15.7rem;
+      }
+    }
+  }
+  @keyframes slide-animation {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(calc(-250px * 10));
+    }
+  }
+}
