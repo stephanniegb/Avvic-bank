@@ -1,6 +1,6 @@
 import React, { useRef, useState } from "react";
-import useToggleModal from "../../hooks/useToggleModal";
-import LeaderModal from "../About/LeaderModal";
+import useToggleModal from "../../../hooks/useToggleModal";
+import LeaderModal from "./LeaderModal";
 
 function Leader({ name, title, image, id, description }) {
   const [activeModal, setActiveModal] = useState(null);

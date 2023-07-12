@@ -29,11 +29,11 @@
     }
   }
   #products-wrapper {
-    gap: 2rem;
+    display: grid;
+    gap: 1.5rem;
     border-radius: 5px;
     padding: 1rem;
     @media (min-width: 49.75em) {
-      display: grid;
       grid-template-columns: 1fr 1fr;
     }
     @media (min-width: 60.06em) {

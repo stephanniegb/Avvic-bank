@@ -23,7 +23,7 @@ function CareerModal({ toggleModal, department, role }) {
   return (
     <div className="overlay">
       <div className="modal-wrapper">
-        <div className="close-btn">
+        <div className="close-btn-wrapper">
           <button onClick={toggleModal}>
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -35,7 +35,7 @@ function CareerModal({ toggleModal, department, role }) {
             </svg>
           </button>
         </div>
-        <h3>Kindly fill the form below</h3>
+        <h3 className="career-heading">Kindly fill the form below</h3>
         <form action="" className="job-form">
           <label htmlFor="Fullname">
             Fullname: <span>*</span> <br />

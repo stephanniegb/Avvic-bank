@@ -1,12 +1,12 @@
 import React from "react";
-import hop from "../../Data/leadership/HOP.json";
+import mt from "../../../Data/leadership/MT.json";
 import Leader from "./Leader";
 
-function HOP() {
+function MT() {
   return (
     <section className="leader-wrapper grid-2">
-      {hop.map((head) => {
-        const { name, image, title, description, id } = head;
+      {mt.map((manager) => {
+        const { name, image, title, description, id } = manager;
         return (
           <Leader
             name={name}
@@ -21,4 +21,4 @@ function HOP() {
   );
 }
 
-export default HOP;
+export default MT;

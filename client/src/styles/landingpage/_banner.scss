@@ -1,0 +1,41 @@
+@use "../globals";
+
+#ctaBanner {
+  background: linear-gradient(
+    90deg,
+    rgba(2, 11, 50, 1) 0%,
+    rgba(13, 153, 153, 1) 55%,
+    rgba(18, 204, 204, 1) 84%
+  );
+  padding: 10%;
+  display: grid;
+  gap: 1rem;
+  justify-content: center;
+  @media (min-width: 49.75em) {
+    grid-template-columns: 80% 20%;
+  }
+  h3 {
+    color: var(--AvvicWhite);
+    font-weight: var(--headings-font-weight);
+    text-align: center;
+    @media (min-width: 49.75em) {
+      text-align: start;
+    }
+  }
+  button {
+    background-color: var(--AvvicWhite);
+    color: var(--Btn-AvvicDCyan);
+    border: none;
+    font-size: var(--text-size);
+    width: 50%;
+    margin-inline: auto;
+    padding: 0.7em;
+
+    @media (min-width: 49.75em) {
+      width: 100%;
+    }
+    @media (min-width: 64.06em) {
+      width: 100%;
+    }
+  }
+}

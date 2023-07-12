@@ -20,7 +20,6 @@
   }
   #bottom {
     width: 1.5px;
-    // height: 80%;
     display: inline-block;
     background-color: var(--AvvicDBlue);
     justify-self: center;
@@ -48,6 +47,7 @@
       display: grid;
       grid-template-columns: 20% 80%;
       padding: 1.5rem;
+      gap: 1rem;
       .service-text {
         padding: 4%;
       }

@@ -1,42 +1,9 @@
 @use "../globals";
 
 .overlay {
-  position: fixed;
-  top: 0;
-  left: 0;
-  height: 100vh;
-  width: 100vw;
-  background-color: rgb(10, 10, 10, 0.6);
-  display: grid;
-  place-content: center;
-  z-index: 99;
-  overflow: hidden;
-
-  h3 {
-    text-align: center;
-  }
   .modal-wrapper {
-    background-color: var(--AvvicWhite);
-    // position: fixed;
-    // left: 100%;
-    // margin-top: 11%;
-    padding: 2%;
-    width: calc(100vw / 1.1);
-    height: 100%;
-    border-radius: 5px;
-    animation: slideIn 0.4s ease-in-out forwards;
-    @media (min-width: 796px) {
-      width: calc(100vw / 1.7);
-    }
-    .close-btn {
-      display: flex;
-      justify-content: flex-end;
-
-      button {
-        border: none;
-        cursor: pointer;
-        background-color: transparent;
-      }
+    .career-heading {
+      text-align: center;
     }
   }
   .job-form {
@@ -66,6 +33,8 @@
     .custom-select {
       position: relative;
       select {
+        appearance: none;
+        outline: none;
         background-color: transparent;
         border: 1px solid var(--textColor);
         font-size: var(--text-font);
@@ -80,18 +49,8 @@
       background-color: var(--Btn-AvvicDCyan);
       border: none;
       color: var(--AvvicWhite);
-      padding: 3%;
+      padding: 1rem;
       margin-bottom: 5%;
-    }
-  }
-  @keyframes slideIn {
-    0% {
-      transform: translateX(-100%);
-      // transform: scale(0);
-    }
-    100% {
-      transform: translateX(0%);
-      // transform: scale(1);
     }
   }
 }
