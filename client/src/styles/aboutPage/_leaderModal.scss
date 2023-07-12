@@ -7,6 +7,9 @@
     @media (min-width: 49.75em) {
       grid-template-columns: 40% 60%;
       padding: 3%;
+      justify-content: center;
+      // align-items: flex-start;
+      align-items: center;
     }
     .fig-img-wrapper {
       padding: 10%;
