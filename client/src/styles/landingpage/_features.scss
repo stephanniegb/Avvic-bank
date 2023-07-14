@@ -3,14 +3,14 @@
   display: flex;
   width: 100%;
   background-color: var(--AvvicPurple);
+  flex-wrap: wrap;
+  flex: 1/1;
+  gap: 2rem;
+  padding: var(--whiteSpace);
   @media (min-width: 49.75em) {
     flex-wrap: nowrap;
   }
 
-  flex-wrap: wrap;
-  flex: 1/1;
-  gap: 2rem;
-  padding: 4%;
   .feature {
     img {
       height: 200px;
@@ -40,7 +40,6 @@
     border-radius: 25px;
     display: grid;
     gap: 2rem;
-    // position: relative;
     padding: 2%;
     justify-content: center;
     div {

@@ -2,9 +2,10 @@
 #services {
   display: flex;
   flex-direction: column;
-  gap: 5rem;
-  padding: 4%;
+  padding: var(--whiteSpace);
+  gap: 2rem;
   @media (min-width: 49.75em) {
+    gap: 5rem;
     padding-inline: 10%;
   }
   .vertical {

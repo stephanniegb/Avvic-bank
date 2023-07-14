@@ -5,7 +5,7 @@
   flex-direction: column;
   justify-content: center;
   @media (min-width: 49.75em) {
-    padding: 5% 15%;
+    padding: var(--whiteSpace) 15rem;
   }
   h3 {
     color: var(--AvvicDBlue);

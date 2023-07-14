@@ -4,7 +4,7 @@
   grid-template-columns: 1fr;
   justify-self: center;
   gap: 2rem;
-  padding: 1rem;
+  padding: 0rem 1rem;
 
   h3 {
     color: var(--AvvicDBlue);
@@ -18,9 +18,11 @@
     img {
       margin: 0 auto;
       border-radius: 8px;
+      max-width: 62.5rem;
     }
     p {
       text-align: center;
+      padding-inline: 15rem;
     }
   }
 }

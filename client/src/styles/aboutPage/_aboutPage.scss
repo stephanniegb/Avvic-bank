@@ -1,7 +1,7 @@
 #about-wrapper {
   display: flex;
   flex-direction: column;
-  gap: 5rem;
+  gap: var(--whiteSpace);
   #about-top-text {
     text-align: center;
     padding: 2rem;
@@ -18,7 +18,7 @@
     }
   }
   #about {
-    padding: 5%;
+    padding: var(--whiteSpace);
     display: grid;
     gap: 3rem;
     position: relative;
@@ -48,7 +48,7 @@
     flex-direction: column;
     background: linear-gradient(90deg, #fffeff 0%, #d7fffe 100%);
     gap: 5rem;
-    padding: 10%;
+    padding: var(--whiteSpace) 8rem;
 
     #ourValues {
       display: flex;

@@ -2,7 +2,7 @@
 #getapp {
   display: flex;
   flex-direction: column-reverse;
-  padding: 5%;
+  padding: var(--whiteSpace);
   gap: 1rem;
   // background-color: #e2e7fe;
   @media (min-width: 49.75em) {

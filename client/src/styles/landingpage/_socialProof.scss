@@ -5,10 +5,10 @@
   display: flex;
   flex-direction: column;
   // gap: 1em;
-  padding: 2rem;
+  padding: 3rem;
   padding-inline: 5%;
   @media (min-width: 49.75em) {
-    margin-top: 10rem;
+    margin-top: calc(var(--whiteSpace) + 1rem);
   }
 
   #why-avvic {

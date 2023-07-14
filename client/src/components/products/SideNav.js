@@ -74,6 +74,7 @@ function SideNav() {
                   : ""
               }
             >
+              <img src="/assets/icons/Group.png" alt="" />
               {sideNavOpen && <h4> Our Products</h4>}
             </li>
           </Link>

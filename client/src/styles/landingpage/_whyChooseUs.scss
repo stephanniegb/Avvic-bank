@@ -1,9 +1,8 @@
 @use "../globals";
 #why-choose-us-section {
   background: linear-gradient(90deg, #fffeff 0%, #d7fffe 100%);
-  padding: 15% 0%;
+  padding: calc(var(--whiteSpace)) 0rem;
   @media (min-width: 49.75em) {
-    padding: 10% 0%;
   }
   h2 {
     text-align: center;

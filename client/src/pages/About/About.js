@@ -58,7 +58,11 @@ function About() {
         />
         <div className="image-container">
           <div id="top-right"></div>
-          <img id="img" src="assets/consult-min.jpg" alt="" />
+          <img
+            id="img"
+            src="/assets/b017d17b-0252-4873-922f-9c4405fb8396.JPG"
+            alt=""
+          />
           <div id="bottom-left"></div>
         </div>
       </section>
